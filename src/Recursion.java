@@ -1,5 +1,10 @@
 public class Recursion {
 
+    //callStack
+    //recursiveFactorial(0) -> first popped off the call stack
+    // recursiveFactorial(1)
+    // recursiveFactorial(2)
+    // recursiveFactorial(3)
 
     public static void main(String[] args) {
         System.out.println(recursiveFactorial(3));
@@ -11,7 +16,6 @@ public class Recursion {
     //4! = 4 * 3 * 2 * 1 = 4 * 3!;
 
     //n! = n * (n - 1)!
-
     public static int recursiveFactorial(int num) {
 
         if (num == 0) {
